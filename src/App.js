@@ -26,7 +26,7 @@ function App() {
     <div className="App">
   <BrowserRouter>
   <Navbar cart={cart}/>
-  <Routes>
+  <Routes>  
   <Route path={'/'}  element={<Home/>} />
     <Route path={'/login'}  element={<Login/>} />
     <Route path={'/singup'} element={<Singup/>} />
