@@ -1,0 +1,42 @@
+/* Place your CSS in a separate file, e.g., OrderList.css */
+
+/* Style for the order list container */
+.order-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Style for individual order items */
+  .order-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for the heading */
+  .order-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the shipping address */
+  .shipping-address {
+    font-weight: bold;
+  }
+  
+  /* Style for the buttons */
+  .checkout-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-button:hover {
+    background-color: #0056b3;
+  }
+  
